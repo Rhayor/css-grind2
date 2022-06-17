@@ -1,0 +1,39 @@
+body {
+  background-color: rgba(222, 111, 91, 0.906);
+}
+main {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100vh;
+}
+.first-content h3 {
+  color: aliceblue;
+  width: 100px;
+
+  padding-left: 2em;
+}
+.first-content p {
+  color: aliceblue;
+  width: 100px;
+
+  padding-left: 2em;
+}
+.second-half {
+  display: grid;
+  grid-template-areas:
+    "second-content"
+    "second bottom-content";
+    gap: 15px;
+  width: 50%;
+  margin: auto;}
+.second-content{
+  color: aliceblue;
+  background-color: blueviolet;
+}
+.second bottom-content p{
+  color: black;
+  background-color: aliceblue;
+}
